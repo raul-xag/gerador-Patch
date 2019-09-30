@@ -44,7 +44,7 @@
 				<form>					  
 					<input type="text" name="name[0]" placeholder="caminho relativo da 8.10.08. Ex: 'html\hd\hdchamado\cadastro_chamado.php' (sem aspas)" size=100>
 			  		<br><br>
-			  		<input type="text" name="name[1]"  size=100>
+			  		<input type="text" name="name[1]" value="<?php echo $name[1];?>" size=100>
 			  		<br><br>
 			  		<input type="text" name="name[2]" value="<?php echo $name[2];?>" size=100>
 			  		<br><br>
